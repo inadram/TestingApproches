@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Rhino_mock
 {
     public class DeviceManager:IDeviceManager    
@@ -11,6 +13,10 @@ namespace Rhino_mock
         public bool IsSpecialProduct(Device device)
         {
             return  false;
+        }
+
+        public void AddAll(List<Device> devices)
+        {
         }
     }
 }
